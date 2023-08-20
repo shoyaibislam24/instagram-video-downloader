@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Video Downloader</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  @media (max-width: 768px) {
+    body {
+      background-size: contain;
+    }
+  }
+  h1{
+    font-size: 36px;
+    color: #ff0000;
+    margin-bottom: 20px;
+  }
+  button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  footer{
+    background-color: yellow;
+  }
+
+  input{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+    </style>
+</head>
+<body>
+    
+
+    <h1>Instagram Video Downloader</h1>
+    <input type="text" id="instagramUrl" placeholder="Enter Instagram Video URL">
+    <button id="downloadButton">Download</button>
+    <video controls id="downloadedVideo" style="display: none;"></video>
+</br>
+</br>
+<footer>&copy; Copyright Shoyaib Islam</footer>
+    <script src="script.js"></script>
+    <script src="Node.js"></script>
+</body>
+</html>
